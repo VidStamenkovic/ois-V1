@@ -12,4 +12,9 @@ public class Gravitacija {
 		double imenovalec = Math.pow(polmer+visina, 2);
 		return stevec/imenovalec;
 	}
+
+    public static void izpis(double nadmorskaVisina, double gravitacijskiPospesek) {
+        System.out.println("Nadmorska višina:" + nadmorskaVisina);
+        System.out.println("Gravitacijski pospešek:" + gravitacijskiPospesek);
+    }
 }
